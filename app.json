@@ -8,7 +8,7 @@
 "env": {
   "OWNER_NAME": {
   "description": "OWNER NAME",
-      "value": "VAJIRA RATHNAYAKA"
+      "value": "Vidun Saniru"
   },
   "ALIVE_MESSAGE": {
     "description": " SET YOUR ALIVE MESSAGE FOR THE BOT",
@@ -17,7 +17,7 @@
   "AUTO_READ_STATUS": {
     "description": "Fill the value true if you want bot view your Statuses./ ඔටො ඉස්ටෙටස් සීන් කරන්න ඔනිනම් true/false දමන්න",
     "required" :false,
-    "value": "false"
+    "value": "true"
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY/ හෙරෝකු සෙටිංස් වෙත ගොස් හෙරෝකු Api එක මෙතනට දමන්න",
@@ -33,7 +33,7 @@
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
-     "required" :false
+     "required" :true
     },
    "ANTILINK_VALUES": {
     "description": "Put words for antilink/ අනවශ්‍ය ලින්ක් දැමීමෙන වැලකීමට",
@@ -42,8 +42,8 @@
      },
    "FAKE_COUNTRY_CODE": {
     "description": "Put the Country Code Name without +/ වියාජ රටෙහි කෝඩ් එක දමන්න",
-     "value": "212",
-     "required" :false
+     "value": "256",
+     "required" :true
     },
      "ANTILINK_ACTION": {
     "description": "Put action for antilink",
@@ -71,10 +71,10 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot/ තමන්ගෙ නම්බ එක (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94Xxxxxxxxxx"
+       "value": "94712934471"
   },
    "SESSION_ID": {
-    "description": "Please put your Session ID that u scanned from the bot.... If u haven't scanned go to KING-MD Github Repo U can find the Scanner Option"
+    "description": "VAJIRA;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia0hQMUhUYThoT0g0UzRBL2JNTVNTY0lQZUFnaWNzUjdoZkNSNThPdmxIdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUWFrSWhLUUZOMm5FNlpVRjNPNmNLd0V4N1AzM29iWDhqMWtCQmtuSUptQT0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBSXMzazhZTkdKY29qbzlhZVNHWEIrTkh1QlBJYi9hUGVwbEtRL204T0ZFPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIvWTM3V3R5L29xWUM0RkNMMWxpcDdXRWswYWFzd3RHbWdIK2ttODFJZmljPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVKVzNHOU82S1kxUGttL0FYYnA2SUl0NnJSdlJIQzBzSzNiQ3RBVlZIME09In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InNMSDl5VlUxK3pHSllQQU5ibmtmV2Ezb0dlTk5vVkk4QWR2U2FKa2xDQjQ9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxaXUzbms3K0pSWVBib0pwUjhsRkJtak8yTDVnaFlWZmRGK1VUR0xUK096NHFWTGlnaFNHQXp6dXJLS1JCUXJZYlZZSmNabENpaXRsa1FJb2k1eVpoQT09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjQzLCJhZHZTZWNyZXRLZXkiOiI0MFVqOHl3aCtMZ05OWVRUbjdvRFlmbDlMSDArMFVpZGtFMzJoS2YxSStrPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJtTF9sME5MZFEzNnp3S1ZOanhYV2RBIiwicGhvbmVJZCI6ImFkMGY3M2Y5LTAwZDMtNDQ2NC1hMDBiLWRjOTQyZmNiNDEzOCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJtQXIrcnptV3ppWWRjYlF0T2JqeXRyUmJFb289In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ikt4d1NkdFZMNXYwSE54RVBxWFV3amhpZTdJbz0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ1BLbTZQZ0ZFUHJtcTZ3R0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6ImtDdTUzUk94WVBSYmpOMHA5UmFrSG5oT1pOUVNjRjZVZ2ZuRUZ0Umw5QWs9IiwiYWNjb3VudFNpZ25hdHVyZSI6IjJVVTRzdFd3NzRBTGgvUE5VS0gvK2ZuREpWZ2xaUkFwUzk3M0tqTTJHa0NiaitSWGVQYW12MStteElMWkxEQTR2ZU14N1RIOHJ6WFgxSTlCY2NLR0FnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiI5djNsTmNnZnYvSUErTkRDamdzbE9GOU1UWWc0M3hza1pVakNsUld3NjJOV3FvV3ZjVFFRcnd3TDNRU2Evb0JZOEN4cUtYZXFEYnVUeWx4N1pJblFnUT09In0sIm1lIjp7ImlkIjoiOTQ3MTI5MzQ0NzE6NkBzLndoYXRzYXBwLm5ldCJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI5NDcxMjkzNDQ3MTo2QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlpBcnVkMFRzV0QwVzR6ZEtmVVdwQjU0VG1UVUVuQmVsSUg1eEJiVVpmUUoifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MDM2MDUxMTh9"
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com(optional if u don't wan't then don't put it ",
@@ -95,7 +95,7 @@
   },
       "AUTO_REACTION": {
     "description": "Reacts emoji to all commands./ හැම මැසෙජ් එකකටම ඔටො රියැක්ශන් එකක් වැටීමට true/false",
-     "value": "false",
+     "value": "true",
      "required": false 
   },
   "PACK_AUTHER": {
